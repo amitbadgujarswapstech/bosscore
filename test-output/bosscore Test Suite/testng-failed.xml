@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [bosscore Test Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.boss.framework.listeners.CucumberReport"/>
+  </listeners>
+  <test thread-count="2" name="bosscore TestNG(failed)" parallel="classes">
+    <classes>
+      <class name="com.boss.testrunner.staticdata.Country_delete">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.boss.testrunner.staticdata.Country_delete -->
+      <class name="com.boss.testrunner.staticdata.Country_add">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.boss.testrunner.staticdata.Country_add -->
+      <class name="com.boss.testrunner.staticdata.Currency_add">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.boss.testrunner.staticdata.Currency_add -->
+      <class name="com.boss.testrunner.staticdata.Country_edit">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.boss.testrunner.staticdata.Country_edit -->
+      <class name="com.boss.testrunner.staticdata.Currency_edit">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.boss.testrunner.staticdata.Currency_edit -->
+      <class name="com.boss.testrunner.staticdata.CurrencyPair_add">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.boss.testrunner.staticdata.CurrencyPair_add -->
+      <class name="com.boss.testrunner.staticdata.Currency_delete">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.boss.testrunner.staticdata.Currency_delete -->
+    </classes>
+  </test> <!-- bosscore TestNG(failed) -->
+</suite> <!-- Failed suite [bosscore Test Suite] -->

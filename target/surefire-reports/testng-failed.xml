@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [bosscore Test Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.boss.framework.listeners.CucumberReport"/>
+  </listeners>
+  <test name="bosscore TestNG(failed)" parallel="classes">
+    <classes>
+      <class name="com.boss.testrunner.staticdata.Account_Transfer">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.boss.testrunner.staticdata.Account_Transfer -->
+    </classes>
+  </test> <!-- bosscore TestNG(failed) -->
+</suite> <!-- Failed suite [bosscore Test Suite] -->

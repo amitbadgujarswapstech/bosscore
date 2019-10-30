@@ -1,0 +1,78 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 245.634 s <<< FAILURE! - in TestSuite
+feature(com.boss.testrunner.staticdata.Account_Transfer)  Time elapsed: 243.68 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KPODSOV', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C9EB13+1501971]
+	Ordinal0 [0x00C1F6D1+980689]
+	Ordinal0 [0x00BA7508+488712]
+	Ordinal0 [0x00BA131A+463642]
+	Ordinal0 [0x00BA19C8+465352]
+	Ordinal0 [0x00BA2AA5+469669]
+	Ordinal0 [0x00B9EC85+453765]
+	Ordinal0 [0x00BA8330+492336]
+	Ordinal0 [0x00B5A108+172296]
+	Ordinal0 [0x00B5942D+169005]
+	Ordinal0 [0x00B578EB+162027]
+	Ordinal0 [0x00B40AC7+68295]
+	Ordinal0 [0x00B41B40+72512]
+	Ordinal0 [0x00B41AD9+72409]
+	Ordinal0 [0x00C38F37+1085239]
+	GetHandleVerifier [0x00D3D7ED+503293]
+	GetHandleVerifier [0x00D3D580+502672]
+	GetHandleVerifier [0x00D446AC+531644]
+	GetHandleVerifier [0x00D3DFFA+505354]
+	Ordinal0 [0x00C30606+1050118]
+	Ordinal0 [0x00C3047F+1049727]
+	Ordinal0 [0x00C3AF9B+1093531]
+	Ordinal0 [0x00C3B103+1093891]
+	Ordinal0 [0x00C3A095+1089685]
+	BaseThreadInitThunk [0x761B6359+25]
+	RtlGetAppContainerNamedObjectPath [0x774F7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x774F7B44+180]
+
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from chrome not reachable
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KPODSOV', ip: '192.168.0.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C9EB13+1501971]
+	Ordinal0 [0x00C1F6D1+980689]
+	Ordinal0 [0x00BA7508+488712]
+	Ordinal0 [0x00BA131A+463642]
+	Ordinal0 [0x00BA19C8+465352]
+	Ordinal0 [0x00BA2AA5+469669]
+	Ordinal0 [0x00B9EC85+453765]
+	Ordinal0 [0x00BA8330+492336]
+	Ordinal0 [0x00B5A108+172296]
+	Ordinal0 [0x00B5942D+169005]
+	Ordinal0 [0x00B578EB+162027]
+	Ordinal0 [0x00B40AC7+68295]
+	Ordinal0 [0x00B41B40+72512]
+	Ordinal0 [0x00B41AD9+72409]
+	Ordinal0 [0x00C38F37+1085239]
+	GetHandleVerifier [0x00D3D7ED+503293]
+	GetHandleVerifier [0x00D3D580+502672]
+	GetHandleVerifier [0x00D446AC+531644]
+	GetHandleVerifier [0x00D3DFFA+505354]
+	Ordinal0 [0x00C30606+1050118]
+	Ordinal0 [0x00C3047F+1049727]
+	Ordinal0 [0x00C3AF9B+1093531]
+	Ordinal0 [0x00C3B103+1093891]
+	Ordinal0 [0x00C3A095+1089685]
+	BaseThreadInitThunk [0x761B6359+25]
+	RtlGetAppContainerNamedObjectPath [0x774F7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x774F7B44+180]
+
+

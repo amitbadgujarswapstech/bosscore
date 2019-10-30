@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="bosscore Test Suite" verbose="1" parallel="classes" thread-count="2" configfailurepolicy="continue">
+	<listeners>  
+		<listener class-name="com.boss.framework.listeners.CucumberReport"/>  
+	</listeners>  	
+	<test name="bosscore TestNG" annotations="JDK" preserve-order="true">
+		<classes>
+			<class name="com.boss.testrunner.staticdata.Account_Transfer" /> 
+		<!-- 	<class name="com.boss.testrunner.staticdata.Country_edit" />
+			<class name="com.boss.testrunner.staticdata.Country_delete" />
+			<class name="com.boss.testrunner.staticdata.Currency_add" />
+			<class name="com.boss.testrunner.staticdata.Currency_edit" />
+			<class name="com.boss.testrunner.staticdata.Currency_delete" />		
+			<class name="com.boss.testrunner.staticdata.CurrencyPair_add" />  -->	
+		</classes>
+	</test>
+</suite>
